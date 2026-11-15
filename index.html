@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitae Aeternae · Naturaleza & Oración</title>
+  <meta name="description" content="Un pequeño oasis para leer, rezar y contemplar la grandeza del Señor en la naturaleza.">
+  <link rel="icon" href="assets/logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <a href="#sobre-mi" class="brand" aria-label="Ir a Sobre mí">
+      <img src="assets/logo.jpg" alt="Vitae Aeternae" width="44" height="44">
+    </a>
+    <nav>
+      <a href="#/">Inicio</a>
+      <a href="#posteos">Posteos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+    </nav>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer class="foot">
+    <div class="newsletter">
+      <h2>Súmate al <span class="ring"><em>newsletter</em></span></h2>
+      <p>Dejá tu email y te avisamos de los nuevos posteos.</p>
+      <form class="nl-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="newsletter">
+        <p class="hp"><label>No completar: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <label class="sr-only" for="nl-email">Tu email</label>
+        <input id="nl-email" type="email" name="email" placeholder="tu@email.com" required>
+        <button type="submit">Suscribirme</button>
+      </form>
+    </div>
+    <img src="assets/logo.jpg" alt="" width="64" height="64">
+    <p>Vitae Aeternae · Naturaleza & Oración</p>
+    <p class="small">Meditando las Lecturas Diarias de la Biblia Apostólica Romana.</p>
+    <p class="small"><a href="https://www.instagram.com/vitae.aeternae/" target="_blank" rel="noopener">@vitae.aeternae</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

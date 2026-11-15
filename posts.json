@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "palabras-de-vida-eterna",
+    "title": "¿Por qué Vitae Aeternae?",
+    "date": "2026-11-15",
+    "excerpt": "La historia detrás del nombre de esta cuenta: de «vida eterna» en el Evangelio al latín.",
+    "cover": "assets/por-que-vitae-aeternae.jpg",
+    "tag": "Lecturas"
+  },
+  {
+    "slug": "la-etimologia-de-las-palabras",
+    "title": "La etimología de las palabras",
+    "date": "2026-11-14",
+    "excerpt": "Querer, buscar, tuyo, alma, morada: cinco palabras de la Biblia y su origen.",
+    "cover": "assets/etimologia-portada.jpg",
+    "tag": "Etimología"
+  },
+  {
+    "slug": "una-mirada-a-la-naturaleza",
+    "title": "Una mirada más profunda a la naturaleza",
+    "date": "2026-11-13",
+    "excerpt": "Lirio, pez, trigo, gorrión y cordero: símbolos de la naturaleza en los pasajes bíblicos.",
+    "cover": "assets/naturaleza-portada.jpg",
+    "tag": "Naturaleza"
+  },
+  {
+    "slug": "salmo-22-en-imagenes",
+    "title": "Salmo 22 en imágenes",
+    "date": "2026-08-19",
+    "excerpt": "«El Señor es mi pastor, nada me puede faltar»: el salmo en imágenes y por qué se lo numera 22.",
+    "cover": "assets/salmo-pastor.jpg",
+    "tag": "Salmos"
+  }
+]
